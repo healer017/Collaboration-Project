@@ -34,7 +34,7 @@ div{
   font-weight: 400;
 }
 
-menu > ul {
+.menu > ul {
     width: 35vw;
     display: flex;
     flex-direction: row;
@@ -110,10 +110,7 @@ h2{
     color: darkorange;
 }
 
-.fas{
-    font-size: 3em;
-    font-weight: 900;
-}
+
 
 #features .description {
     display: flex;
