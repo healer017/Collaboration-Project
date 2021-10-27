@@ -3,33 +3,41 @@
   <head>
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="C:\Users\Awais\Collaboration Project\Collaboration-Project">
+    <script src="https://use.fontawesome.com/981c349b97.js"></script>
   </head>
 
   <body>
+    <div id="page-wrapper">
+      
     <div class="header">
 
-      <div class="logo"> Original Trombones</div>
+      <div class="logo"> Original Trombones </div>
 
       <div class="menu">
-        <li><a href="#">Features</a></li>
-        <li><a href="#">How It Works</a></li>
-        <li><a href="#">Pricing</a></li>
+        <ul>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">How It Works</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
       </div>
     </div>
 
     <div class="subscribe">
         <h2>Handcrafted, home-made masterpieces</h2>
-
-        <div>
-          <div class="input"><input type="text", placeholder="Enter your email address"></div>
-          <div class="top-cta"><button>GET START</button></div>
-        </div>       
+        <form action="https://wwww.freecodecamp.com/email-submit">
+           <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+           <input id="submit" type="submit" value="SUBMIT" class="btn">
+        </form>       
     </div>
     
-    <div class="product-features">
-        <div class="feature">
-          <img src="" alt="fire-icon">
+    <div class="container">
+      <section id="features">
+        
+        <div class="grid">
+          <div class="icon">
+            <i class="fas fa-fire"></i>
+          </div>
           <div class="description"> 
             <h2>Premium Materials</h2>
             <p>Our trombones use the shiniest brass 
@@ -38,8 +46,10 @@
           </div>
         </div>
 
-        <div class="feature">
-          <img src="" alt="truck-icon">
+        <div class="grid">
+          <div class="icon">
+            <i class="fas fa-truck"></i>
+          </div>
           <div class="description"> 
             <h2>Fast Shipping</h2>
             <p>We make sure you recieve your trombone
@@ -48,8 +58,10 @@
           </div>
         </div>
 
-        <div class="feature">
-          <img src="" alt="battery-icon">
+        <div class="grid">
+          <div class="icon">
+            <i class="fas fa-battery-full"></i>
+          </div>
           <div class="description"> 
             <h2>Quality Assurance</h2>
             <p>For every purchase you make, we will ensure there
@@ -57,14 +69,13 @@
               the pitch of your instrument.</p>
           </div>
         </div>
-      </div>
- 
-      <div> <embed src="http://www.youtube.com/embed/wtH-hdOF1uA" type="">
-      </div>
-
-      <div class="pricing">
-        <div class="offer">
-          <div class="offer-title"> TENOR TROMBONE</div>
+      </section>
+      <section id="how-it-works">
+        <embed src="http://www.youtube.com/embed/wtH-hdOF1uA" type="">
+      </section>
+      <section id="pricing">
+        <div class="product" id="tenor">
+          <div class="level"> Tenor Trombone</div>
           <h2>$600</h2> 
           <ol>
             <li>Lorem ipsum.</li>
@@ -72,11 +83,11 @@
             <li>Lorem ipsum dolor.</li>
             <li>Lorem ipsum.</li>
           </ol>
-          <button class="offer-cta">SELECT</button>
+          <button class="btn">Select</button>
         </div>
 
-        <div class="offer">
-          <div class="offer-title"> BASS TROMBONE</div>
+        <div class="product" id="bass">
+          <div class="level"> Bass Trombone</div>
           <h2>$900</h2> 
           <ol>
             <li>Lorem ipsum.</li>
@@ -84,31 +95,41 @@
             <li>Lorem ipsum dolor.</li>
             <li>Lorem ipsum.</li>
           </ol>
-          <button class="offer-cta">SELECT</button>
+          <button class="btn">Select</button>
         </div>
 
-        <div class="offer">
-          <div class="offer-title"> TENOR TROMBONE</div>
+        <div class="product" id="valve">
+          <div class="level"> Valve Trombone</div>
           <h2>$1200</h2> 
           <ol>
-            <li>Plays similar to a Trumpet</li>
-            <li>Great for Jazz Bands</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
             <li>Lorem ipsum dolor.</li>
             <li>Lorem ipsum.</li>
           </ol>
-          <button class="offer-cta">SELECT</button>
+          <button class="btn">Select</button>
         </div>
+      </section>
+      <footer>
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <span>Copyright 2021, Original Microverse</span>
+      </footer>
+    </div>
+    </div>
+ 
+    
 
-        <footer>
-          <ul>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-          <span>Copyright 2021, Original Microverse</span>
-        </footer>
+    
+        
+
+        
          
-      </div>
+    
+      
     
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
