@@ -49,11 +49,7 @@ header{
   font-weight: 400;
 }
 
-<<<<<<< HEAD:style/styles.css
 #nav-bar > ul {
-=======
-.menu > ul {
->>>>>>> ed48d89554b914596984eb83fff335640d6438bd:style.css
     width: 35vw;
     display: inline-flex;
     justify-content: space-around;
@@ -128,14 +124,7 @@ h2{
     color: darkorange;
 }
 
-<<<<<<< HEAD:style/styles.css
-/* .fa{
-    font-size: 3em;
-    font-weight: 900;
-} */
-=======
 
->>>>>>> ed48d89554b914596984eb83fff335640d6438bd:style.css
 
 #features .description {
     display: flex;
